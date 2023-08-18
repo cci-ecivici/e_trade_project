@@ -3,7 +3,7 @@ import '../models/product.dart';
 import '../screens/productDetail.dart';
 import 'package:flutter/material.dart';
 
-// ignore: must_be_immutable
+// ignore: must_be_immutable !!!
 class ProductUpdate extends StatefulWidget {
   Product product;
   ProductUpdate(this.product, {super.key});
